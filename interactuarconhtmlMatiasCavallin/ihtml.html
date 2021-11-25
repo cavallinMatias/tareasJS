@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="ihtml.js"></script>
+    <header>
+        <h1>SUPERIVA</h1>
+    </header>
+    
+    <div class="header2">
+    <p>OFRECEMOS: </p>
+    <p>Calculador de cuanto debe pagar en base a el impuesto al valor agregado (IVA).</p>
+    </div>
+    
+    <main>
+<div class="cuadro0">
+    <p>NOMBRE/USUARIO</p>
+    <input type="text" id="user">
+    <button onclick="agregar()">OK</button>
+</div>
+
+
+    <div class="cuadro1">
+    <p>Establezca el precio de su producto/servicio: </p>
+    <input type="text" id="valorPrecio">
+    <button onclick="proceder()">Aplicar</button>
+    </div>
+    
+    <div class="cuadro2">
+    <p>El impuesto al valor agregado sera de: </p>
+    <input type="number" id="ivaNumero">
+    </div>
+    
+    <div class="cuadro3">
+    <p>Usted pagara (considerando el IVA) un total de:  </p>
+    <input type="number" id="totalPIVA">
+    </div>
+    
+    <br>
+    <div class="button">
+    <button onclick="calcularCuotas()">CALCULAR</button>
+    </div>
+    </main>
+    
+    
+    <footer>
+    <p>Insagram</p>
+    <p>Facebook</p>
+    
+    </footer>
+</body>
+</html>
